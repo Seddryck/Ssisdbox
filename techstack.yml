@@ -1,7 +1,8 @@
 repo_name: Seddryck/Ssisdbox
 report_id: 9c20c3893ba27d9ff07e37e883734057
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T20:25:09+00:00'
+timestamp: '2024-01-05T08:48:07+00:00'
 requested_by: Seddryck
 provider: github
 branch: master
@@ -15,7 +16,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: custom.sql
+  detection_source_url: https://github.com/Seddryck/Ssisdbox/blob/master/cleanup_logs.sql
+  detection_source: cleanup_logs.sql
   last_updated_by: Cédric L. Charlier
   last_updated_on: 2017-07-07 11:03:56.000000000 Z
 - name: Git
@@ -26,4 +28,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Seddryck/Ssisdbox
   detection_source: Repo Metadata
